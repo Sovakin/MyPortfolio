@@ -163,8 +163,8 @@ body {
 }
 
 .tg:hover, .gh:hover, .ds:hover, .vk:hover {
-    transform: scale(1.1); /* Увеличиваем размер кнопки при наведении */
-    filter: grayscale(60%); /* Добавляем эффект серости */
+    transform: scale(1.1);
+    filter: grayscale(60%);
 }
 
 .vector {
