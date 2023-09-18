@@ -1,0 +1,193 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body, h1, h2, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    /* CSS стили для более маленьких экранов */
+    .text {
+        font-size: 40px;
+        /* Измените другие свойства по необходимости */
+    }
+}
+body {
+    margin: 0;
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: normal;
+    overflow: hidden;
+}
+.wrapper {
+    max-width: 1827px;
+}
+
+.text {
+    top: 370px;
+    left: 363px;
+    position: absolute;
+    flex-shrink: 0;
+    color: #FFF;
+    background: none;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 94.559%;
+}
+
+.texta {
+    top: 450px;
+    left: 420px;
+    position: absolute;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 94.559%;
+}
+
+.textb {
+    top: 520px;
+    left: 503px;
+    position: absolute;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 94.559%;
+}
+
+.textc {
+    top: 603px;
+    left: 112px;
+    position: absolute;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 121.059%;
+}
+
+.background-text {
+    position: absolute;
+    flex-shrink: 0;
+    top: 600px;
+    left: 63px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.line {
+    position: absolute;
+    top: 0;
+    left: 184px;
+}
+
+.header_ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 0;
+}
+
+.header-logo-pic {
+    position: absolute;
+    left: 18px;
+    top: 17px;
+}
+
+.header-logo-picb {
+    position: absolute;
+    left: 196px;
+    top: 2px;
+}
+.ya{
+    position: absolute;
+    top: 0px;
+    left: 1000px;
+}
+
+.tg {
+    position: absolute;
+    top: 710px;
+    left: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.gh {
+    position: absolute;
+    top: 716px;
+    left: 285px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ds {
+    position: absolute;
+    top: 747px;
+    left: 566px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.vk {
+    position: absolute;
+    top: 749px;
+    left: 817px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tg, .gh, .ds, .vk {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+.tg:hover, .gh:hover, .ds:hover, .vk:hover {
+    transform: scale(1.1); /* Увеличиваем размер кнопки при наведении */
+    filter: grayscale(60%); /* Добавляем эффект серости */
+}
+
+.vector {
+}
+
+.vector:last-child {
+    margin-top: 58px;
+    margin-right: 74px;
+}
+
+.background-main {
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 193px;
+}
+
+
+.background {
+    height: 100vh;
+    background: linear-gradient(180deg, #15123F 0%, #000000 100%), no-repeat center;
+    background-size: cover;
+}
